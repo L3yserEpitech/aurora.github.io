@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+@font-face {
+    font-family: 'tittle';
+    src: url('assets/font/LEMONMILK-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'classic';
+    src: url('assets/font/roboto.ttf') format('truetype');
+}
+
+body {
+    background-image: url('assets/frame4.png');
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-size: cover; /* Ajuste l'image pour couvrir entièrement l'élément */
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    margin-bottom: 1.5rem;
+}
+
+.main h1 {
+    padding: 1rem 1rem;
+    margin: 1rem 0rem;
+    font-family: 'tittle';
+    font-size: 70px;
+    letter-spacing: 8px;
+}
+
+.main h1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-bottom: 3rem;
+}
+
+.slogan {
+    font-family: 'classic';
+    font-weight: 800;
+    font-size: 19px;
+    color: rgb(65, 65, 65);
+    letter-spacing: 1px;
+    margin-bottom: 0.3rem;
+}
+
+.div_button_telegram {
+    margin-top: 3rem;
+    font-family: 'classic';
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 50px -5px #000000;
+}
+
+.div_button_telegram:hover {
+    background-color: rgb(0, 170, 136);
+    box-shadow: 0px 10px 50px -5px rgb(0, 170, 136);
+    transform: scale(1.05);
+}
+
+.button_telegram {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.result {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 40rem;
+}
+
+.div_panel_result {
+    display: flex;
+    height: 15rem;
+}
+
+.panel_result {
+    background-color: transparent;
+    margin: 1rem;
+    border-radius: 40px;
+    width: 17rem;
+    height: 15rem;
+    box-shadow: 0px 1px 30px rgba(175, 175, 175, 0.7);
+}
