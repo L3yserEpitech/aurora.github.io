@@ -16,4 +16,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     window.addEventListener('scroll', updateSize);
     updateSize();
+
+    let elementCompteur = document.getElementById('compteur');
+    let valeurMax = 137;
+    let duree = 3000; // Durée en millisecondes
+    let debut = Date.now();
+    let intervalle = duree / valeurMax;
+
+    let intervalID = setInterval(function() {
+        let tempsEcoule = Date.now() - debut;
+        let pourcentage = Math.floor(tempsEcoule / duree * valeurMax);
+
+        if (pourcentage <= valeurMax) {
+            elementCompteur.textContent = `${pourcentage}%`;
+        } else {
+            elementCompteur.textContent = `137%`;
+            clearInterval(intervalID);
+        }
+    }, intervalle);
 });

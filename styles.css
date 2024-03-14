@@ -119,3 +119,20 @@ body {
 .panel_a:hover, .panel_b:hover, .panel_c:hover, .panel_d:hover {
     box-shadow: 0px 1px 30px rgba(99, 99, 99, 0.7);
 }
+
+.circle {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    width: 1rem;
+    padding: 1.8rem;
+    border-radius: 50px;
+}
+.circle_a {
+    background-color: #fddbfa
+}
+.circle_b {
+    background-color: #feefcd;
+}
+.circle_c {
+    background-color: #dad3fc;
+}
