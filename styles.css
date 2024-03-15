@@ -111,7 +111,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500rem;
+    margin-bottom: 20rem;
 }
 
 .div_panel_result {
@@ -122,7 +122,7 @@ body {
 
 .panel_result {
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 1rem 3rem;
+    margin: 1rem 3vw;
     border-radius: 40px;
     width: 17rem;
     height: 17rem;
@@ -186,11 +186,11 @@ body {
 }
 
 .panel_result {
-    position: relative; /* Permet le positionnement absolu des enfants */
+    position: relative;
 }
 
 .background {
-    position: absolute; /* Positionné par rapport à .panel_result */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -217,4 +217,31 @@ body {
     position: relative;
     z-index: 2;
     text-align: center;
+}
+
+/* Section Avis */
+
+.avis {
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+    align-items: center;
+}
+
+.video {
+    margin-top: 6rem;
+}
+
+.video video {
+    width: 300px;
+    opacity: 1;
+    margin: 0 0.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 1px 30px rgba(0, 92, 73, 0.7);
+}
+
+.avis h2 {
+    font-family: 'tittle';
+    font-size: 60px;
+    letter-spacing: 10px;
 }
