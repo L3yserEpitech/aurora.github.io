@@ -1,0 +1,112 @@
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+
+.div_panel_result {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel_result {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 1rem 3rem;
+    border-radius: 40px;
+    width: 17rem;
+    height: 17rem;
+    box-shadow: 0px 1px 30px rgba(175, 175, 175, 0.7);
+    cursor: crosshair;
+}
+
+.title_result {
+    margin-bottom: 3rem;
+    font-family: 'tittle';
+    font-size: 150px;
+    letter-spacing: 10px;
+    transition: all 1s ease;
+    cursor:default;
+}
+
+.panel_a:hover, .panel_b:hover, .panel_c:hover, .panel_d:hover {
+    box-shadow: 0px 1px 30px rgba(99, 99, 99, 0.7);
+}
+
+.panel_a p {
+    display: flex;
+    justify-content: center;
+    font-family: 'tommy';
+    font-weight: 800;
+    font-size: 90px;
+    margin-top: 2.5rem;
+    color: #10CEA8;
+    text-shadow: 0px 1px 5px rgba(99, 99, 99, 0.7);
+}
+
+.panel_result h2 {
+    height: 2rem;
+    font-family: 'nexah';
+    font-weight: 800;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.exept {
+    font-family: 'classic';
+}
+
+.result h3 {
+    margin-top: 2rem;
+    font-family: 'classic';
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.panel_result p {
+    display: flex;
+    justify-content: center;
+    font-family: 'tommy';
+    font-weight: 800;
+    font-size: 90px;
+    margin-top: 2.5rem;
+    color: #10CEA8;
+    text-shadow: 0px 1px 5px rgba(99, 99, 99, 0.7);
+}
+
+.panel_result {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    opacity: 0.15;
+    font-family: 'tommy';
+    font-weight: 800;
+    font-size: 90px;
+    color: #10CEA8;
+    text-shadow: 0px 1px 5px rgba(99, 99, 99, 0.7);
+    font-size: 17rem;
+}
+
+.dollar {
+    font-size: 15rem;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
