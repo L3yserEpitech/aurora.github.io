@@ -34,7 +34,7 @@
 
 
 body {
-    background-image: url('assets/frame4.png');
+    /* background-image: url('assets/frame4.png'); */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     background-size: cover; /* Ajuste l'image pour couvrir entièrement l'élément */
     background-attachment: fixed;
@@ -97,21 +97,22 @@ body {
 }
 
 .div_button_telegram:hover {
+    transform: scale(1.05);
     background-color: rgb(0, 170, 136);
     box-shadow: 0px 10px 50px -5px rgb(0, 170, 136);
-    transform: scale(1.05);
 }
 
 .button_telegram {
     color: white;
     letter-spacing: 1px;
+    transition: 0.5s ease;
 }
 
 .result {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20rem;
+    margin-bottom: 8rem;
 }
 
 .div_panel_result {
@@ -122,7 +123,7 @@ body {
 
 .panel_result {
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 1rem 3vw;
+    margin: 1rem 3rem;
     border-radius: 40px;
     width: 17rem;
     height: 17rem;
@@ -224,8 +225,8 @@ body {
 .avis {
     display: flex;
     flex-direction: column;
-    height: 60rem;
     align-items: center;
+    margin-bottom: 8rem;
 }
 
 .video {
@@ -233,7 +234,7 @@ body {
 }
 
 .video video {
-    width: 300px;
+    width: 250px;
     opacity: 1;
     margin: 0 0.5rem;
     border-radius: 15px;
@@ -244,4 +245,148 @@ body {
     font-family: 'tittle';
     font-size: 60px;
     letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section passage a l'action */
+
+.action h2 {
+    font-family: 'tittle';
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 3rem;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column_action {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_action, .m_action {
+    width: 50vw;
+}
+
+.text_action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.text_action p {
+    width: 28rem;
+}
+
+.desc_text_action {
+    width: 622.53px;
+    display: flex;
+    justify-content: start;
+    font-family: 'classic';
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.button_action p {
+    display: flex;
+    font-family: 'classic';
+    font-weight: 900;
+    width: auto;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #00aa88;
+    box-shadow: 0px 10px 30px -5px rgba(0, 168, 135, 0.5);
+    cursor: pointer;
+}
+
+.div_button_action {
+    width: 622.53px;
+    display: flex;
+    justify-content: start;
+    margin-top: 3rem;
+}
+
+.button_action:hover p{
+    background-color: rgb(1, 110, 88);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+}
+
+.panel_1, .panel_2, .panel_3 {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 110px;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px -5px rgba(51, 50, 53, 0.11);
+    align-items: center;
+    
+}
+
+.panel_1, .panel_3 {
+    margin-left: 122.53px;
+}
+
+.panel_2 {
+    margin-left: 50px;
+}
+
+.panel_3 {
+    margin-bottom: 0;
+}
+
+.m_action i {
+    margin-left: 2.5rem;
+}
+
+.m_action p {
+    font-family: 'classic';
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin-left: 2rem;
+}
+
+.jsp {
+    height: 20rem;
 }
