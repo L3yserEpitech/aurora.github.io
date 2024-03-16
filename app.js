@@ -47,3 +47,33 @@ axios.get(url)
 .catch(error => {
     console.error("Erreur lors de la récupération du nombre de membres :", error);
 })
+
+document.getElementById('scrollToResult').addEventListener('click', function(e) {
+    e.preventDefault(); // Empêche le comportement par défaut du lien
+
+    // Récupère l'élément cible
+    var target = document.getElementById(this.getAttribute('href').substring(1));
+
+    // Calcule la position de l'élément cible
+    var targetPosition = target.getBoundingClientRect().top;
+    var startPosition = window.pageYOffset;
+    var distance = targetPosition - startPosition;
+    var startTime = null;
+
+    function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        var timeElapsed = currentTime - startTime;
+        var run = ease(timeElapsed, startPosition, distance, 1300); // Dernier paramètre = durée en ms
+        window.scrollTo(0, run);
+        if (timeElapsed < 1300) requestAnimationFrame(animation); // Continue l'animation si la durée n'est pas écoulée
+    }
+
+    function ease(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+
+    requestAnimationFrame(animation);
+});

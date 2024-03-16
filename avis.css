@@ -39,6 +39,7 @@
     height: 100px;
     border-radius: 20px;
     box-shadow: 0px 10px 30px -5px rgba(51, 50, 53, 0.15);
+    cursor: pointer;
 }
 
 .trustpilot h3 {
