@@ -1,0 +1,64 @@
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.faq h2 {
+    line-height: 60px;
+    font-family: 'tittle';
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 3rem;
+}
+
+.container{
+    width: 53rem;
+}
+.wrapper{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px -5px rgba(51, 50, 53, 0.15);
+}
+.toggle,
+.content_faq{
+    font-family: "Poppins",sans-serif;
+}
+.toggle{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #111130;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.toggle h4 {
+    padding: 15px 40px;
+    transition: all 0.4s;
+}
+
+.toggle i {
+    padding-right: 40px;
+}
+
+.content_faq{
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    margin: 0 40px;
+    overflow: hidden;
+    transition: all 0.5s;
+}

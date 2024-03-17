@@ -35,11 +35,10 @@
     width: 622.53px;
     display: flex;
     justify-content: start;
-    font-family: 'classic';
-    font-weight: 800;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
     font-size: 18px;
     color: rgb(65, 65, 65);
-    letter-spacing: 2px;
     line-height: 1.7;
     margin-bottom: 1rem;
 }
@@ -52,7 +51,7 @@
     padding: 1rem 2rem;
     border-radius: 50px;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     background-color: #00aa88;
     box-shadow: 0px 10px 30px -5px rgba(0, 168, 135, 0.5);
     cursor: pointer;
@@ -100,11 +99,11 @@
 }
 
 .m_action p {
-    font-family: 'classic';
-    font-weight: 800;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
     font-size: 18px;
     color: rgb(65, 65, 65);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 1.7;
     margin-left: 2.5rem;
 }

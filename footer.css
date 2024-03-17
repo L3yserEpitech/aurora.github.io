@@ -1,0 +1,40 @@
+
+footer {
+    width: 100vw;
+    height: 9rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins",sans-serif;
+    box-shadow: 0px 0px 30px rgba(51, 50, 53, 0.15);
+}
+
+.droit {
+    font-size: 15px;
+}
+
+.reseaux {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiktok, .insta, .telegram {
+    padding: 0.5rem;
+    display: flex;
+    margin: 0 5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reseaux i {
+    margin-right: 1rem;
+}
+
+.reseaux p {
+}
