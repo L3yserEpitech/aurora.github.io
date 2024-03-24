@@ -35,6 +35,8 @@ footer {
 .reseaux i {
     margin-right: 1rem;
 }
-
-.reseaux p {
+.insta:hover,
+.telegram:hover,
+.tiktok:hover {
+    text-decoration: underline;
 }

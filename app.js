@@ -48,6 +48,10 @@ axios.get(url)
     console.error("Erreur lors de la récupération du nombre de membres :", error);
 })
 
+
+
+// scroll animation
+
 document.getElementById('scrollToResult').addEventListener('click', function(e) {
     e.preventDefault(); // Empêche le comportement par défaut du lien
 
@@ -79,7 +83,7 @@ document.getElementById('scrollToResult').addEventListener('click', function(e) 
 });
 
 
-// animation footer
+// faq footer
 
 let toggles = document.getElementsByClassName('toggle');
 let contentDiv = document.getElementsByClassName('content_faq');
@@ -88,7 +92,7 @@ let icons = document.getElementsByClassName('icon');
 for(let i=0; i<toggles.length; i++){
     toggles[i].addEventListener('click', ()=>{
         if(parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
-            contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+            contentDiv[i].style.height = contentDiv[i].scrollHeight + 20 + "px";
             toggles[i].style.color = "#00aa88";
             icons[i].classList.remove('fa-plus');
             icons[i].classList.add('fa-minus');
@@ -109,3 +113,16 @@ for(let i=0; i<toggles.length; i++){
         }
     });
 }
+
+document.getElementById('telegram').addEventListener('click', function() {
+    window.open('https://t.me/auroranetwork')
+})
+document.getElementById('telegram_pv').addEventListener('click', function() {
+    window.open('https://t.me/auroraofficiel')
+})
+document.getElementById('tiktok').addEventListener('click', function() {
+    window.open('https://www.tiktok.com/@v.er0ne')
+})
+document.getElementById('insta').addEventListener('click', function() {
+    window.open('https://www.instagram.com/aurora.trading?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')
+})
