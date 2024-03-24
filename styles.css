@@ -136,9 +136,9 @@
 @media screen and (max-width: 735px) {
     .header_main {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100vw;
-        justify-content: space-between;
+        margin-top: 20vh;
     }
     .div_main {
         width: 100vw;
@@ -171,7 +171,6 @@
     .logo {
         width: 100px;
         height: 100px;
-        margin-left: 15px;
     }
     .button_telegram {
         width: 80vw;
@@ -197,12 +196,12 @@
 
 @media screen and (max-width: 360px) {
     .main h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 325px) {
     .main h1 {
-        text-align: right;
+        text-align: center;
     }
 }
