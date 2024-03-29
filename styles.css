@@ -147,7 +147,7 @@
         flex-direction: column;
     }
     .body_main {
-        height: calc(100vh - 120px - 20vh);
+        height: calc(100vh - 120px - 25vh);
         display: flex;
         flex-direction: column;
         width: 100vw;
