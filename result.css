@@ -166,6 +166,10 @@
     .panel_result h2 {
         margin-top: 2.7rem;
     }
+    .result h3 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 @media screen and (max-width: 560px) {
