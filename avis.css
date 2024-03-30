@@ -57,3 +57,13 @@
     margin-left: 2.5rem;
     color: #00c59e;
 }
+
+@media screen and (max-width: 1260px) {
+    .video {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    
+}
