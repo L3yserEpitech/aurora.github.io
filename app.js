@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const titleElement = document.querySelector('.title_result');
     const originalSize = 1;
-    const maxScale = 0.8;
+    const maxScale = 0.65;
     const minScale = 0.5;
 
     const updateSize = () => {

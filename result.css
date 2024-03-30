@@ -19,7 +19,7 @@
     width: 23rem;
     height: 17rem;
     box-shadow: 0px 1px 30px rgba(175, 175, 175, 0.7);
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .title_result {
@@ -109,4 +109,118 @@
     position: relative;
     z-index: 2;
     text-align: center;
+}
+
+@media screen and (max-width: 1120px) {
+    .title_result {
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .title_result {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .title_result {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .panel_result {
+        width: 17rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .spec {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .div_panel_result {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        display: flex;
+    }
+    .panel_result {
+        display: flex;
+        width: 80vw;
+        height: 10rem;
+    }
+
+    .background {
+        display: none;
+    }
+    .panel_result p {
+        margin-top: 1.3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .panel_result h2 {
+        margin-top: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .div_panel_result {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        display: flex;
+    }
+    .panel_result {
+        display: flex;
+        width: 80vw;
+        height: 7rem;
+    }
+    .background {
+        display: none;
+    }
+    .panel_result p {
+        font-size: 60px;
+        margin-top: 1.2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+    .panel_result h2 {
+        font-size: 18px;
+        margin-top: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .div_panel_result {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        display: flex;
+    }
+    .panel_result {
+        display: flex;
+        width: 80vw;
+        height: 6rem;
+        border-radius: 28px;
+    }
+    .background {
+        display: none;
+    }
+    .panel_result p {
+        font-size: 35px;
+        margin-top: 1.6rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+    .panel_result h2 {
+        font-size: 14px;
+        margin-top: 1.7rem;
+    }
 }
