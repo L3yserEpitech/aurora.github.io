@@ -65,5 +65,29 @@
 }
 
 @media screen and (max-width: 735px) {
-    
+    .avis {
+        display: flex;
+        flex-direction: column;
+    }
+    .avis h2 {
+        margin-left: 7.5vw;
+    }
+}
+@media screen and (max-width: 510px) {
+    .avis h2 {
+        width: 100vw;
+        font-size: 6vw;
+        line-height: 1.5;
+    }
+    .trustpilot {
+        margin-left: 7.5vw;
+        width: 85vw;
+        height: 25vw;
+    }
+    .trustpilot h3 {
+        font-size: 4vw;
+    }
+    .stars {
+        margin-top: 0.5rem;
+    }
 }
