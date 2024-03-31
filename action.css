@@ -111,3 +111,34 @@
 .jsp {
     height: 20rem;
 }
+
+@media  (max-width: 1275px) {
+    .column_action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_action, .desc_text_action, .text_action, .button_action
+    .div_button_action, .text_action h2 {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_action, .desc_text_action {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .text_action h2 {
+        margin-left: 7.5vw;
+        text-align: center;
+    }
+}
+
+@media  (max-width: 440px) {
+    .text_action h2 {
+        margin-left: 7.5vw;
+        font-size: 7vw;
+    }
+}
