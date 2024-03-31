@@ -134,11 +134,46 @@
         margin-left: 7.5vw;
         text-align: center;
     }
+    .text_action p {
+        width: 80vw;
+    }
+    .panel {
+        margin: 0.5rem 0;
+    }
+    .m_action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+}
+
+@media  (max-width: 624px) {
+    .panel {
+        width: 80vw;
+    }
+}
+
+@media  (max-width: 470px) {
+    .panel p {
+        font-size: 15px;
+        margin-left: 1.5rem;
+        width: 60%;
+    }
+    .panel i {
+        margin-left: 1.5rem;
+    }
 }
 
 @media  (max-width: 440px) {
     .text_action h2 {
         margin-left: 7.5vw;
         font-size: 7vw;
+    }
+}
+
+@media  (max-width: 375px) {
+    .panel p {
+        font-size: 12px;
     }
 }
