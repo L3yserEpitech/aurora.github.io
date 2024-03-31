@@ -67,7 +67,7 @@ document.getElementById('scrollToResult').addEventListener('click', function(e) 
     function animation(currentTime) {
         if (startTime === null) startTime = currentTime;
         var timeElapsed = currentTime - startTime;
-        var run = ease(timeElapsed, startPosition, distance, 1300); // Dernier paramètre = durée en ms
+        var run = ease(timeElapsed, startPosition, distance - 300, 1300); // Dernier paramètre = durée en ms
         window.scrollTo(0, run);
         if (timeElapsed < 1300) requestAnimationFrame(animation); // Continue l'animation si la durée n'est pas écoulée
     }
