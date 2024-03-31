@@ -6,10 +6,14 @@
     margin-bottom: 9rem;
 }
 
+.content {
+    width: 100%;
+}
+
 .div_panel_result {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .panel_result {
@@ -20,6 +24,9 @@
     height: 17rem;
     box-shadow: 0px 1px 30px rgba(175, 175, 175, 0.7);
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .title_result {
@@ -155,7 +162,13 @@
         width: 85vw;
         height: 10rem;
     }
-
+    .contentt {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
     .background {
         display: none;
     }
@@ -167,6 +180,7 @@
     }
     .panel_result h2 {
         margin-top: 2.7rem;
+        margin-right: 2rem;
     }
     .result h3 {
         width: 75vw;
