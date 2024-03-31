@@ -40,3 +40,23 @@ footer {
 .tiktok:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 750px) {
+    .reseaux {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    footer {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .droit {
+        font-size: 3.5vw;
+    }
+}

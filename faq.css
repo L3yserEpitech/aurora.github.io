@@ -63,3 +63,21 @@
     overflow: hidden;
     transition: all 0.5s;
 }
+
+@media screen and (max-width: 1000px) {
+    .faq, .container {
+        width: 100vw;
+
+    }
+    .wrapper {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .faq {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+}
