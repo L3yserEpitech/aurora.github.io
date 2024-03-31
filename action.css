@@ -66,7 +66,9 @@
     text-align: center;
 }
 
-
+body {
+    width: 100vw;
+}
 .button_action:hover p{
     background-color: rgb(1, 110, 88);
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.5);
@@ -117,6 +119,7 @@
 
 @media  (max-width: 1275px) {
     .column_action {
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -132,10 +135,13 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        width: 100vw;
     }
     .text_action h2 {
         margin-left: 7.5vw;
         text-align: center;
+        margin-left: 0;^
+        width: 100vw;
     }
     .text_action p {
         width: 80vw;
