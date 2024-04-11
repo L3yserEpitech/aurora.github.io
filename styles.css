@@ -32,26 +32,6 @@
     src: url('assets/font/tommy.otf') format('truetype');
 }
 
-@media screen and (max-width: 2165px) {
-    body {
-        background-image: url('assets/2.png');
-        background-position: center center; /* Centre l'image de fond */
-        background-repeat: no-repeat; /* Empêche l'image de se répéter */
-        background-size: cover;
-    }
-    
-} 
-
-@media screen and (max-width: 2165px){
-    body {
-        background-image: url('assets/3.png');
-        background-position: center center; /* Centre l'image de fond */
-        background-repeat: no-repeat; /* Empêche l'image de se répéter */
-        background-size: cover;
-    }
-}
-
-
 .main {
     display: flex;
     flex-direction: column;
